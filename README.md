@@ -1,4 +1,4 @@
-#### Jenkins CI Pipeline
+## Jenkins CI Pipeline
 
 ### **Infrastructure**
 The project uses three EC2 instances, on which the Jenkins, SonarQube, and Nexus Repository services run. Each service runs under its own *security group*, ensuring controlled traffic to only the necessary sources.
