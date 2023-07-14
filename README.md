@@ -1,6 +1,6 @@
 ## Jenkins CI Pipeline
 
-### **Infrastructure**
+### **Setup**
 The project uses three EC2 instances, on which the Jenkins, SonarQube, and Nexus Repository services run. Each service runs under its own *security group*, ensuring controlled traffic to only the necessary sources.
 The SonarQube service runs with its PostgreSQL database, over a Nginx reverse proxy (9000 > 80 port).
 To version the artifacts, the Timestamp plugin is used, which generates a unique date token with which each artifact uploaded to the Nexus Repository is named.
